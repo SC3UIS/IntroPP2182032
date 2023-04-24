@@ -1,34 +1,34 @@
 #include<stdio.h>
 #include<math.h>
-#include<omp.h>
+#include<omp.h> // Esta es la biblioteca para OpenMP
 
-/* Define the function to be integrated here: */
+/* Define la función a integrar aquí: */
 double f(double x){
   return x*x;
 }
 
-/*Program begins*/
+/* El programa comienza */
 int main(){
   int n,i;
   double a,b,h,x,sum=0,integral;
-  /*Ask the user for necessary input */
+  /* Pedir al usuario la entrada necesaria */
   printf("\nEnter the no. of sub-intervals: ");
   scanf("%d",&n);
   printf("\nEnter the initial limit: ");
   scanf("%lf",&a);
   printf("\nEnter the final limit: ");
   scanf("%lf",&b);
-  /*Begin Trapezoidal Method: */
+  /* Comenzar el método trapezoidal: 
   h=fabs(b-a)/n;
 
   #pragma omp parallel for shared(sum) private(i,x)
   for(i=1;i<n;i++){
     x=a+i*h;
-    #pragma omp atomic
+    #pragma omp atomic // Esto indica que la variable sum debe actualizarse de manera atómica, lo que significa que solo una hebra puede actualizarla a la vez
     sum=sum+f(x);
   }
 
   integral=(h/2)*(f(a)+f(b)+2*sum);
-  /*Print the answer */
+  /* Imprimir la respuesta */
   printf("\nThe integral is: %lf\n",integral);
 }
