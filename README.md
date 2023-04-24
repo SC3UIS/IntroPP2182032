@@ -1,5 +1,4 @@
 # IntroPP2182032
-¡Por supuesto! A continuación, proporcionaré una explicación más detallada en formato README.md para GitHub.
 
 # Evaluación de transformación de código a ejecución paralela utilizando OpenMP
 
