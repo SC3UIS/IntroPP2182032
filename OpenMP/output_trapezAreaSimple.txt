@@ -1,0 +1,24 @@
+EJECUCION EN GUANE-1
+
+Enter the no. of sub-intervals: 7
+
+Enter the initial limit: 5
+
+Enter the final limit: 10
+
+The integral is: 292.091837
+
+--------------------------------------------------------
+
+EJECUCION EN MAQUINA PERSONAL
+
+Enter the no. of sub-intervals: 7
+
+Enter the initial limit: 5
+
+Enter the final limit: 10
+
+The integral is: 292.091837
+
+Process exited with return value 29
+Press any key to continue . . .
