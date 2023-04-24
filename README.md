@@ -49,4 +49,4 @@ Las modificaciones realizadas en el código original en C se han registrado en l
 
 Después de la ejecución del código, se generará un archivo de salida llamado `output_trapezAreaSimple.txt` que contiene los resultados de la ejecución del nuevo código en OpenMP.
 
-¡Gracias por utilizar este repositorio de evaluación! Si tiene alguna pregunta o problema, no dude en ponerse en contacto con nosotros.
+despues de correr el codigo en la maquina local se crea el archivo llamado `omp_trapezAreaSimple.exe` y con eso damos por terminada la introduccion
