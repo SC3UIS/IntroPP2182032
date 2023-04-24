@@ -7,17 +7,17 @@ Este repositorio contiene una evaluación para determinar la capacidad de transf
 
 ## Contenido del repositorio
 
-- `original_code.c`: Archivo que contiene el código original en C que se va a transformar en su ejecución paralela utilizando OpenMP.
+- `trapezAreaSimple`: Archivo que contiene el código original en C que se va a transformar en su ejecución paralela utilizando OpenMP.
 
 - `omp_trapezAreaSimple.c`: Nuevo código en OpenMP, donde se han modificado las partes necesarias para que el código se ejecute en paralelo. Se ha utilizado OpenMP para añadir directivas de procesamiento paralelo.
 
-- `sbatch_file`: Archivo sbatch que se utilizará para la ejecución del código en el cluster GUANE-1.
+- `trapezAreaSimple.sbatch`: Archivo sbatch que se utilizará para la ejecución del código en el cluster GUANE-1.
 
 - `README.md`: Archivo que contiene instrucciones detalladas sobre cómo compilar y ejecutar el código en su máquina local y en el cluster GUANE-1. También se describen las modificaciones realizadas en el código fuente y las directivas de procesamiento paralelo utilizadas.
 
 - `output_trapezAreaSimple.txt`: Archivo de salida que contiene los resultados de la ejecución del nuevo código en OpenMP.
 
-- `executable_file`: Archivo ejecutable generado después de compilar el nuevo código en OpenMP.
+- `omp_trapezAreaSimple.exe`: Archivo ejecutable generado después de compilar el nuevo código en OpenMP.
 
 ## Cómo compilar y ejecutar el código
 
