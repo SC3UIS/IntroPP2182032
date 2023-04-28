@@ -18,7 +18,7 @@ int main(){
   scanf("%lf",&a);
   printf("\nEnter the final limit: ");
   scanf("%lf",&b);
-  /* Comenzar el método trapezoidal: 
+  /* Comenzar el método trapezoidal:*/
   h=fabs(b-a)/n;
 
   #pragma omp parallel for shared(sum) private(i,x)
