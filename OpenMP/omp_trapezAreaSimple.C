@@ -24,7 +24,6 @@ int main(){
   #pragma omp parallel for shared(sum) private(i,x)
   for(i=1;i<n;i++){
     x=a+i*h;
-    #pragma omp atomic // Esto indica que la variable sum debe actualizarse de manera atómica, lo que significa que solo una hebra puede actualizarla a la vez
     sum=sum+f(x);
   }
 
