@@ -8,11 +8,15 @@ Para el programa omp_trapecio:
 Tiempo real: 0m4.322s
 Tiempo de usuario: 0m0.043s
 Tiempo de sistema: 0m0.001s
+
 Para el programa mpi_trapezAreaSimple:
 
 Tiempo real: 0m8.198s
+
 Tiempo de usuario: 0m0.011s
+
 Tiempo de sistema: 0m0.012s
+
 En ambos casos, los tiempos de usuario y sistema son relativamente bajos, lo que indica que el programa no requiere una gran cantidad de recursos del sistema durante su ejecución.
 
 Sin embargo, en términos de tiempo real, el programa omp_trapecio se ejecuta más rápido, con un tiempo de 4.322 segundos, mientras que el programa mpi_trapezAreaSimple tarda 8.198 segundos en ejecutarse. Esto indica que el programa paralelo con MPI es más lento en comparación con el programa secuencial con OpenMP.
