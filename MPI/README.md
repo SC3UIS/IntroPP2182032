@@ -6,7 +6,9 @@
 Para el programa omp_trapecio:
 
 Tiempo real: 0m4.322s
+
 Tiempo de usuario: 0m0.043s
+
 Tiempo de sistema: 0m0.001s
 
 Para el programa mpi_trapezAreaSimple:
