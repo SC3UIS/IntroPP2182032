@@ -1,0 +1,44 @@
+MPI
+Enter the no. of sub-intervals: 7
+
+Enter the initial limit: 5
+
+Enter the final limit: 10
+
+The integral is: 292.091837
+
+real    0m8.198s
+user    0m0.011s
+sys     0m0.012s
+
+--------------------------------------------------------
+
+OMP
+
+Enter the no. of sub-intervals: 7
+
+Enter the initial limit: 5
+
+Enter the final limit: 10
+
+The integral is: 292.091837
+
+real    0m4.322s
+user    0m0.043s
+sys     0m0.001s
+
+--------------------------------------------------------
+
+Normal
+
+Enter the no. of sub-intervals: 7
+
+Enter the initial limit: 5
+
+Enter the final limit: 10
+
+The integral is: 292.091837
+
+real    0m8.125s
+user    0m0.000s
+sys     0m0.001s
