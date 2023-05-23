@@ -56,7 +56,7 @@ mpicc mpi_trapezAreaSimple.c -o mpi_trapezAreaSimple
 mpirun -np 12 ./mpi_trapezAreaSimple
 
 
-![WhatsApp Image 2023-05-17 at 12 35 06 AM](https://github.com/SC3UIS/IntroPP2182032/assets/46767951/dbcb4031-7052-44e3-bdb2-412885d9a602)
+[WhatsApp Image 2023-05-17 at 12 35 06 AM](https://github.com/SC3UIS/IntroPP2182032/assets/46767951/dbcb4031-7052-44e3-bdb2-412885d9a602)
 ![WhatsApp Image 2023-05-17 at 12 35 58 AM](https://github.com/SC3UIS/IntroPP2182032/assets/46767951/88e95dc5-f4da-4ff5-b6b1-c61a5a4279c3)
 ![WhatsApp Image 2023-05-17 at 12 36 16 AM](https://github.com/SC3UIS/IntroPP2182032/assets/46767951/598c0d19-8c2b-4487-99ef-c53b312805dc)
 
