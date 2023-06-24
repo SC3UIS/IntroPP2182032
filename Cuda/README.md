@@ -6,27 +6,7 @@ Este repositorio contiene un programa en C que calcula una integral numérica ut
 
 ## Instrucciones de uso
 
-1. Compila el programa para cada enfoque:
-
-   - Para CUDA:
-
-     ```bash
-     nvcc cuda_integral.cu -o cuda_integral
-     ```
-
-   - Para OpenMP:
-
-     ```bash
-     gcc -fopenmp openmp_integral.c -o openmp_integral -lm
-     ```
-
-   - Para MPI:
-
-     ```bash
-     mpicc mpi_integral.c -o mpi_integral -lm
-     ```
-
-2. Ejecuta el programa para cada enfoque:
+Ejecuta el programa para cada enfoque:
 
    - Para CUDA:
 
@@ -45,10 +25,9 @@ Este repositorio contiene un programa en C que calcula una integral numérica ut
      ```bash
      mpirun -np <num_procesos> ./mpi_integral
      ```
+Sigue las instrucciones en pantalla para ingresar los parámetros necesarios.
 
-3. Sigue las instrucciones en pantalla para ingresar los parámetros necesarios.
-
-4. Observa los resultados que incluyen la integral calculada, el tiempo transcurrido, el speedup, la escalabilidad y el throughput.
+Observa los resultados que incluyen la integral calculada, el tiempo transcurrido, el speedup, la escalabilidad y el throughput.
 
 ## Resultados obtenidos
 
