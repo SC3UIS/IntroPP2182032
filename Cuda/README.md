@@ -90,15 +90,6 @@ A continuación se presentan los resultados obtenidos para diferentes configurac
 - En cuanto al tiempo transcurrido, MPI es la opción más rápida, con un tiempo de solo 0.000031 segundos.
 - OMP muestra una buena tasa de rendimiento con un throughput de 979.65 intervalos por segundo.
 
-Ten en cuenta que estos resultados se basan en los datos proporcionados y pueden no ser representativos en todos los escenarios o configuraciones.
-
-## Contribuciones
-
-Las contribuciones a este proyecto son bienvenidas. Si encuentras algún problema, tienes ideas para mejorar el rendimiento o deseas agregar más enfoques de cálculo, no dudes en enviar un pull request.
-
-## Licencia
-
-Este proyecto está bajo la licencia MIT.
 
 
 
