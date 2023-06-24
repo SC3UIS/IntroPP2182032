@@ -4,27 +4,6 @@ Trapezoide:
 
 Este repositorio contiene un programa en C que calcula una integral numérica utilizando tres enfoques diferentes: CUDA, OpenMP y MPI. El objetivo es comparar el rendimiento de estos enfoques en términos de velocidad, escalabilidad y throughput.
 
-## Instrucciones de uso
-
-Ejecuta el programa para cada enfoque:
-
-   - Para CUDA:
-
-     ```bash
-     ./cuda_integral
-     ```
-
-   - Para OpenMP:
-
-     ```bash
-     ./openmp_integral
-     ```
-
-   - Para MPI (puede requerir la ejecución en múltiples nodos):
-
-     ```bash
-     mpirun -np <num_procesos> ./mpi_integral
-     ```
 Sigue las instrucciones en pantalla para ingresar los parámetros necesarios.
 
 Observa los resultados que incluyen la integral calculada, el tiempo transcurrido, el speedup, la escalabilidad y el throughput.
